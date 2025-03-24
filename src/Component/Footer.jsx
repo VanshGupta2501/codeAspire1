@@ -1,25 +1,26 @@
 import React from 'react'
 import { motion } from "motion/react"
 import { GrFacebookOption } from "react-icons/gr";
-import { FaYoutube } from "react-icons/fa";
+
 import { FaInstagram } from "react-icons/fa6";
 import { CiLinkedin } from "react-icons/ci";
 import { Link } from 'react-scroll';
 import { NavLink } from 'react-router-dom';
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="bg-[#BBAB8C] w-full h-[400px]  flex flex-col items-center justify-center">
-            <motion.div initial={{y:"40px"}} whileInView={{delay:'2', transition:{delay:0.2, ease:'linear', duration:0.4}, y:'-10px' }} className="w-[90%] h-[80%]  flex items-center justify-evenly " >
+    <div className="bg-[#BBAB8C] w-full small:h-[1000px] xxxsmall:h-[1100px]  h-[400px]  flex flex-col items-center justify-center ">
+            <motion.div initial={{y:"40px"}} whileInView={{delay:'2', transition:{delay:0.2, ease:'linear', duration:0.4}, y:'-10px' }}  viewport={{ once: true }} className=" small:items-start small:flex-col w-[90%] h-[80%]  flex items-center justify-evenly " >
                 <div className="flex flex-col items-start gap-5">
                     <img className="w-[400px]" src="https://www.code-aspire.com/images/black-logo.png" alt="" />
                     <p className="font-medium text-xl">Transforming visions into reality, our <br /> company specializes in delivering <br /> exceptional IT services</p>
                     <div className='flex gap-3 ' >
                         {/* logo */}
-                        <GrFacebookOption className=' rounded-full border text-3xl px-[2px] hover:bg-yellow-300 hover:-translate-y-1' />
-                        <FaYoutube className=' rounded-full border text-3xl px-[4px] hover:bg-yellow-300 hover:-translate-y-1'/>
-                        <FaInstagram className=' rounded-full border text-3xl px-[5px] hover:bg-yellow-300 hover:-translate-y-1'/>
-                        <CiLinkedin className=' rounded-full border text-3xl px-[3px] hover:bg-yellow-300 hover:-translate-y-1'/>
+                        <a href="https://www.facebook.com/people/CodeAspire-Consultancy-Services/100070215794236/?mibextid=LQQJ4d" target="_blank"><GrFacebookOption className=' rounded-full border text-3xl px-[2px] hover:bg-yellow-300 hover:-translate-y-1' /></a>
+                       <a href="http://https://x.com/i/flow/login?redirect_after_login=%2FCode_Aspire   " target="_blank" rel="noopener noreferrer"> <FaXTwitter  className=' rounded-full border text-3xl px-[4px] hover:bg-yellow-300 hover:-translate-y-1'/></a>
+                       <a href="https://www.instagram.com/code_aspire/?igshid=YTQwZjQ0NmI0OA%3D%3D" target="_blank" rel="noopener noreferrer"> <FaInstagram className=' rounded-full border text-3xl px-[5px] hover:bg-yellow-300 hover:-translate-y-1'/></a>
+                        <a href="https://www.linkedin.com/company/codeaspire-consultancy-services/" target="_blank" rel="noopener noreferrer"><CiLinkedin className=' rounded-full border text-3xl px-[3px] hover:bg-yellow-300 hover:-translate-y-1'/></a>
                     </div>
                 </div>
                 <div className="flex flex-col gap-5">

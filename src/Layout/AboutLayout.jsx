@@ -8,8 +8,8 @@ const AboutLayout = () => {
   return (
     <>
       <Navbar/>
+      <Contact/>  
       <About/>
-      <Contact/>
       <Footer/>
     </>
   )

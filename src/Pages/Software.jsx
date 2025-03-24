@@ -8,8 +8,8 @@ const Software = () => {
   return (
     <>
     
-    <div className='w-full h-[3100px]  flex justify-center items-center my-20 font-ppt bg-[#fcf8ea] '>
-        <div className='w-[90%] h-[90%]  flex flex-col items-center justify-start gap-3 '>
+    <div className='w-full h-[3100px] extralarge:h-[3200px] xsmall:h-[5000px]  flex justify-center items-center my-20 font-ppt bg-[#fcf8ea] '>
+        <div className='w-[90%] h-[90%]   flex flex-col items-center justify-start gap-3 '>
             <div className='flex justify-center items-center flex-col gap-10' >
             <h1 className='text-7xl font-semibold  ' >Software Development</h1>
             <p className='text-xl mb-12' >CodeAspire - Service - Software  Development</p>
@@ -44,7 +44,7 @@ const Software = () => {
             </div>
             
            <div className='w-[95%] flex flex-col justify-center item-center '>
-                <div className='  grid grid-cols-3 gap-10 pt-16 px-10'>
+                <div className='  grid grid-cols-3 large:grid-cols-2 xxsmall:grid-cols-1 gap-10 pt-16 px-10 '>
                     <div className=' w-[300px] h-[400px]  rounded-xl  flex items-center justify-center flex-col px-2 gap-4 hover:shadow-2xl hover:scale-105 hover:duration-200 transition-transform ' >
                         <MdOutlineFeaturedVideo className='text-7xl rounded-full px-3 bg-yellow-100 ' />
                         <h1 className='font-bold text-lg ' >Precision Engineering</h1>

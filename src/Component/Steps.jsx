@@ -8,8 +8,8 @@ import { motion } from "motion/react"
 
 const Steps = () => {
   return (
-    <div className='w-full h-[700px] my-[1px]  flex justify-center items-center bg-[#DED0B6] font-ppt ' >
-        <div  className='w-[98%] h-[100%] flex justify-center items-center px-5  gap-4  '>
+    <div className='w-full h-[700px] my-[1px]    flex justify-center items-center bg-[#DED0B6] font-ppt medium:h-[900px] ' >
+        <div  className='  large:mt-10 w-[98%] h-[100%] flex justify-center items-center px-5  gap-4 medium:w-[110%] medium:flex-col medium:h-[80%] xxxsmall:h-[90%] xxxsmall:w-[120%]   '>
         <div className='flex flex-col gap-4'>
           <motion.h1 initial={{y:'30px', opacity:0 }} viewport={{ once: true }}   whileInView={{y:'0px',opacity:1 , transition:{delay:0.2, ease:'linear', duration:0.5}}} className='text-yellow-500 text-3xl font-semibold'>Work Process</motion.h1>
             <motion.h1 initial={{y:'40px', opacity:0 }} viewport={{ once: true }}   whileInView={{y:'0px',opacity:1 , transition:{delay:0.2, ease:'linear', duration:0.7}}} className='text-5xl font-semibold  tracking-tighter ' >We Follow Four Simple Steps</motion.h1>
@@ -22,7 +22,7 @@ const Steps = () => {
         pagination={true}
         navigation={true}
         modules={[EffectFlip, Pagination, Navigation]}
-        className="mySwiper w-[40%]  h-[80%]  "
+        className="mySwiper w-[40%] large:w-[50%] small:w-[70%]  h-[80%] "
         >
         <SwiperSlide className=' px-32 py-20 bg-[#d5c4a5] rounded-3xl shadow-xl '>
             <img src="https://www.code-aspire.com/images/choose/choose-1.png" alt="" />

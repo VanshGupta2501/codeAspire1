@@ -13,13 +13,13 @@ import office from '../assets/prismOFFICE.png'
 
 const Product = () => {
   return (
-    <div data-scroll data-scroll-speed="0.4" data-scroll-section  className='product rounded-3xl w-full h-[700px] flex justify-center items-center text-black '>
-      <div className='w-[100%] h-[96%] bg-[#DED0B6] flex items-center gap-3 px-10 '>
-      <div className='flex flex-col gap-2 border-r-3 py-28 pl-8  '>
-        <h1 className=' text-4xl text-blue-400 font-bold'>Products</h1>
-        <h1 className=' text-5xl font-extrabold leading-tight tracking-tight'>We Provide the Best Quality Products </h1>
-        <p className=' text-lg font-medium'>We are technology solutions providing company all over the world.</p>
-      </div>
+    <div className=' xxxsmall:-mx-20 xxxsmall:pl-36  small:h-[1400px] large:h-[1300px] extralarge:mt-[50px] extralarge:h-[800px] xsmall:h-[1500px] product rounded-3xl w-full h-[700px]  flex justify-center items-center text-black '>
+      <div  className=' xsmall:w-[800px] large:flex-col w-[100%] h-[96%] bg-[#DED0B6] flex items-center gap-3 px-10 xextralarge:gap-20  xextralarge:px-40 '>
+        <div className='flex flex-col large:w-full large:-my-20 large:mt-7 gap-2 border-r-3 py-28 pl-8  '>
+          <h1 className=' text-4xl text-blue-400 font-bold large:text-5xl '>Products</h1>
+          <h1 className=' text-5xl  large:text-7xl font-extrabold leading-tight tracking-tight'>We Provide the Best Quality Products </h1>
+          <p className=' text-lg font-medium large:text-2xl'>We are technology solutions providing company all over the world.</p>
+        </div>
       <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y ]}
       spaceBetween={50}
@@ -27,7 +27,7 @@ const Product = () => {
       navigation={true}
       pagination={{ clickable: true  }}
       scrollbar={{ draggable: true , hide: true }}
-    className='w-[90%]  h-[500px]  ' style={{
+    className='w-[90%] border extralarge:h-[600px]  h-[500px]  ' style={{
       "--swiper-navigation-color" : "#fffff",
     } } >
       <SwiperSlide className='px-20 bg-[#d5c4a5] rounded-3xl py-10 ' >

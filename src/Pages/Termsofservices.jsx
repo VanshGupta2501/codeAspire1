@@ -1,19 +1,20 @@
 import React from 'react'
 import Navbar from '../Component/Navbar'
 import Footer from '../Component/Footer'
+import Contact from '../Component/Contact'
 
 const Termsofservices = () => {
   return (
     <>
     <Navbar/>
-      <div className='w-full h-[2300px] flex items-center justify-center font-ppt my-10 '>
-      <div className='w-[80%] h-[90%] flex items-center justify-center flex-col gap-16 bg-[#fcf8ea]  '>
-        <div className='overflow-hidden' >
-        <img  className='w-[600px] hover:scale-125  hover:duration-500 transition-transform ' src="https://www.code-aspire.com/images/terms-of-service.jpg" alt="" />
-        </div>
-        
+      <div className='w-full h-[2500px] medium:h-[2800px] xsmall:h-[3000px] flex items-center justify-center font-ppt '>
+        <div className='w-[80%] h-[90%] flex items-center justify-center flex-col gap-16 bg-[#fcf8ea]  '>
+          <div className='overflow-hidden rounded-2xl flex justify-center items-center medium:w-[90%] w-[80%]' >
+            <img  className=' rounded-2xl hover:scale-125  hover:duration-500 transition-transform ' src="https://www.code-aspire.com/images/terms-of-service.jpg" alt="" />
+          </div>
 
-        <div className='flex justify-center items-start flex-col gap-4' >
+          <div className='flex flex-col gap-12'>
+          <div className='flex justify-center items-start flex-col gap-4' >
           <h1 className='text-2xl font-bold' >1. Our Website</h1>
           <p className='text-lg font-medium '>Our website address is: https://code-aspire.com</p>
           <h1 className='bg-green-200 px-2 py-3 text-lg rounded-3xl' >We collect certain data from you directly, like information you enter yourself, data about your participation in courses, and data from third-party platforms you connect with Stax. We also collect some data automatically, like information about your device and what parts of our Services you interact with or spend time using.</h1>
@@ -54,10 +55,10 @@ const Termsofservices = () => {
           <h1 className='text-2xl font-bold' >6. Our Policy Concerning Children</h1>
           <h1 className='bg-green-200 px-2 py-3 text-lg rounded-3xl' >We recognize the privacy interests of children and encourage parents and guardians to take an active role in their children's online activities and interests. Children under 13 (or under 16 in the European Economic Area) should not use the Services. If we learn that we've collected personal data from a child under those ages</h1>
         </div>
-
-
-      </div>
+          </div>
+        </div>
     </div>
+    <Contact/>
     <Footer/>
     </>
   )

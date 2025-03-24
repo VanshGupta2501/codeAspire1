@@ -16,10 +16,10 @@ const Hero2 = () => {
   });
 
   return (
-    <div data-scroll data-scroll-section data-scroll-speed="0.05"  className=' w-full h-screen flex justify-center items-center'>
-      <div  className='w-[99.4%]  gap-20  h-[800px] bg-cover flex justify-center items-center  flex-col ' style={{backgroundImage:`url(${img})` }} >
+    <div data-scroll data-scroll-section data-scroll-speed="0.05"  className='  w-full h-screen flex justify-center items-center  '>
+      <div  className='w-[100%]  gap-20 xxsmall:h-[900px]  h-[800px] bg-cover flex justify-center items-center  flex-col ' style={{backgroundImage:`url(${img})` }} >
         {/* <img className='w-[1400px]' src={img} alt="" /> */}
-        <motion.div initial={{y:"100px", opacity:0  }} whileInView={{opacity:1 ,delay:'0.4', transition:{delay:0.2, ease:'linear', duration:0.4}, y:'-20px' }}   className='flex gap-44 text-white'>
+        <motion.div initial={{y:"100px", opacity:0  }} whileInView={{opacity:1 ,delay:'0.4', transition:{delay:0.2, ease:'linear', duration:0.4}, y:'-20px' }}   className=' grid grid-cols-4 extralarge:grid-cols-2  gap-44 text-white '>
           <div ref={ref} className='flex items-center  gap-6 text-4xl font-semibold'>
             <RiTeamFill  className=' w-16 h-16 bg-blue-300 px-2 rounded-full' />
             <div className='flex flex-col gap-4'>

@@ -1,17 +1,17 @@
 import React from 'react'
 import { motion } from "motion/react"
 import { GrFacebookOption } from "react-icons/gr";
-
+import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { CiLinkedin } from "react-icons/ci";
 import { Link } from 'react-scroll';
 import { NavLink } from 'react-router-dom';
-import { FaXTwitter } from "react-icons/fa6";
+
 
 const Footer = () => {
   return (
-    <div className="bg-[#BBAB8C] w-full small:h-[1000px] xxxsmall:h-[1100px]  h-[400px]  flex flex-col items-center justify-center ">
-            <motion.div initial={{y:"40px"}} whileInView={{delay:'2', transition:{delay:0.2, ease:'linear', duration:0.4}, y:'-10px' }}  viewport={{ once: true }} className=" small:items-start small:flex-col w-[90%] h-[80%]  flex items-center justify-evenly " >
+    <div className="bg-[#BBAB8C] w-full small:h-[1000px] xxxsmall:h-[1100px] extrasmall:h-[1200px]   h-[400px]  flex flex-col items-center justify-center ">
+            <motion.div initial={{y:"40px"}} whileInView={{delay:'2', transition:{delay:0.2, ease:'linear', duration:0.4}, y:'-10px' }}  viewport={{ once: true }} className=" small:items-start small:flex-col w-[90%] h-[80%]  flex items-center justify-evenly  " >
                 <div className="flex flex-col items-start gap-5">
                     <img className="w-[400px]" src="https://www.code-aspire.com/images/black-logo.png" alt="" />
                     <p className="font-medium text-xl">Transforming visions into reality, our <br /> company specializes in delivering <br /> exceptional IT services</p>

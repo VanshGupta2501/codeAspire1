@@ -11,6 +11,7 @@ export default {
         'ppt2':["Bodoni Moda", "serif"]
       },
       screens:{
+        'xextralarge':{'max':'2560px'},
         'extralarge':{'max':"1700px"},
         'large':{'max':"1322px"},
         'medium':{'max':"1099px"},
@@ -18,7 +19,9 @@ export default {
         'xsmall':{'max':"801px"},
         'xxsmall':{'max':"700px"},
         'xxxsmall':{'max':'660px'},
-        'xextralarge':{'max':'2560px'}
+        'xxxxsmall':{'max':'640px'},
+        'extrasmall':{'max':'500px'},
+        'xextrasmall':{'max':'420px'}
       }
     },
   },

@@ -22,27 +22,27 @@ const Steps = () => {
         pagination={true}
         navigation={true}
         modules={[EffectFlip, Pagination, Navigation]}
-        className="mySwiper w-[40%] large:w-[50%] small:w-[70%] medium:w-[60%] medium:h-[95%] xxsmall:w-[85%] xxxsmall:w-[90%] xextrasmall:w-[99%] xextrasmall:h-[70%] h-[80%] xxxsmall:h-[60%] xxxsmall:-mt-10 extrasmall:w-[97%] extrasmall:mt-5  "
+        className="mySwiper  w-[40%] large:w-[50%] small:w-[70%] medium:w-[60%] medium:h-[95%] xxsmall:w-[85%] xxxsmall:w-[90%] xextrasmall:w-[100%]   xextrasmall:h-[56%] h-[80%] xxxsmall:h-[60%] xxxsmall:-mt-10 extrasmall:w-[97%] extrasmall:mt-5  "
         >
-        <SwiperSlide className=' extrasmall:pl-5 pl-12 py-7 bg-[#d5c4a5] rounded-3xl shadow-xl  '>
+        <SwiperSlide className=' xextrasmall:py-2 extrasmall:pl-5 pl-12 py-7 bg-[#d5c4a5] rounded-3xl shadow-xl   '>
             <img src="https://www.code-aspire.com/images/choose/choose-1.png" className='my-4' alt="" />
             <h1 className='py-4 font-semibold text-3xl px-12  ' >Discussion</h1>
-            <p className='text-gray-500 text-xl font-serif px-12 xextralarge:text-2xl xxxsmall:text-lg  '>Discussion is vital part of our for an IT  services , fostering collaboration among  team members. It aligns requirements,and addresses challenges, resulting in a  website that meets project goals.</p>
+            <p className='text-gray-500 text-xl font-serif px-12 xextralarge:text-2xl xxxsmall:text-lg xextrasmall:text-[17px]  '>Discussion is vital part of our for an IT  services , fostering collaboration among  team members. It aligns requirements,and addresses challenges, resulting in a  website that meets project goals.</p>
         </SwiperSlide>
-        <SwiperSlide className='xextrasmall:pl-5 pl-12 py-7 bg-[#d5c4a5] rounded-3xl shadow-xl  '>
+        <SwiperSlide className=' xextrasmall:py-2 xextrasmall:pl-5 pl-12 py-7 bg-[#d5c4a5] rounded-3xl shadow-xl  '>
             <img src="https://www.code-aspire.com/images/choose/choose-2.png" className='my-4' alt="" />
             <h1 className='py-4 font-semibold text-3xl  px-12' >Testing & Trying</h1>
-            <p className='text-gray-500 text-xl font-serif px-12 xextralarge:text-2xl xxxsmall:text-lg '>Testing is crucial part of our work we ensuring the quality and functionality of an IT services website, identifying and fixing bugs, improving user experience, and maintaining security.</p>
+            <p className='text-gray-500 text-xl font-serif px-12 xextralarge:text-2xl xxxsmall:text-lg xextrasmall:text-[17px] '>Testing is crucial part of our work we ensuring the quality and functionality of an IT services website, identifying and fixing bugs, improving user experience, and maintaining security.</p>
         </SwiperSlide>
-        <SwiperSlide className='xextrasmall:pl-5 pl-12 py-7 bg-[#d5c4a5] rounded-3xl shadow-xl  '>
+        <SwiperSlide className='xextrasmall:py-2 xextrasmall:pl-5 pl-12 py-7 bg-[#d5c4a5] rounded-3xl shadow-xl  '>
             <img src="https://www.code-aspire.com/images/choose/choose-3.png" className='my-4' alt="" />
             <h1 className='py-4 font-semibold text-3xl px-12 ' >Ideas & Concpet</h1>
-            <p className='text-gray-500 text-xl font-serif px-12 xextralarge:text-2xl xxxsmall:text-lg'>Ideas and concepts are the driving force behind an IT services, fueling innovation, problem-solving, and creativity to deliver cutting-edge solutions that meet the diverse needs of clients and users.</p>
+            <p className='text-gray-500 text-xl font-serif px-12 xextralarge:text-2xl xxxsmall:text-lg xextrasmall:text-[17px]'>Ideas and concepts are the driving force behind an IT services, fueling innovation, problem-solving, and creativity to deliver cutting-edge solutions that meet the diverse needs of clients and users.</p>
         </SwiperSlide>
-        <SwiperSlide className='xextrasmall:pl-5 pl-12 py-7 bg-[#d5c4a5] rounded-3xl shadow-xl  '>
+        <SwiperSlide className='xextrasmall:py-2 xextrasmall:pl-5 pl-12 py-7 bg-[#d5c4a5] rounded-3xl shadow-xl  '>
             <img src="https://www.code-aspire.com/images/choose/choose-4.png" className='my-4' alt="" />
             <h1 className='py-4 font-semibold text-3xl px-12' >Execute & Install</h1>
-            <p className='text-gray-500 text-xl font-serif px-12 xextralarge:text-2xl xxxsmall:text-lg'>Executing and installing an IT services involves implementing the developed solution, ensuring seamless deployment, configuration, and setup to make the website fully functional and accessible to users.</p>
+            <p className='text-gray-500 text-xl font-serif px-12 xextralarge:text-2xl xxxsmall:text-lg xextrasmall:text-[17px]'>Executing and installing an IT services involves implementing the developed solution, ensuring seamless deployment, configuration, and setup to make the website fully functional and accessible to users.</p>
         </SwiperSlide>
         </Swiper>
         </div>

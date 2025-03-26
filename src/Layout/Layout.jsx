@@ -24,7 +24,7 @@ const Layout = () => {
     <div>
       <Navbar/>
       <Hero/>
-      {/* <Hero2/> */}
+      <Hero2/>
       <Services/>
       <Steps/>
       <About/>

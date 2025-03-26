@@ -7,7 +7,7 @@ const Termsofservices = () => {
   return (
     <>
     <Navbar/>
-      <div className='w-full h-[2500px] medium:h-[2800px] xsmall:h-[2900px] xxsmall:h-[3000px] xxxsmall:h-[3100px] extrasmall:h-[3500px] flex items-center justify-center font-ppt '>
+      <div className='w-full xextrasmall:h-[3650px]  h-[2500px] medium:h-[2800px] xsmall:h-[2900px] xxsmall:h-[3000px] xxxsmall:h-[3100px] extrasmall:h-[3500px] flex items-center justify-center font-ppt '>
         <div className='w-[80%] xxxsmall:w-[90%] xxxsmall:h-[95%] h-[90%] flex items-center justify-center flex-col gap-16 bg-[#fcf8ea]  '>
           <div className='overflow-hidden rounded-2xl flex justify-center items-center medium:w-[90%] xsmall:w-[90%] w-[80%] xxxsmall:w-[80%] extrasmall:w-[80%]  ' >
             <img  className=' rounded-2xl hover:scale-110 hover:overflow-hidden  hover:duration-300 transition-transform hover:blur-[1px] extrasmall:mt-10 ' src="https://www.code-aspire.com/images/terms-of-service.jpg" alt="" />

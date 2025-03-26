@@ -28,7 +28,7 @@ const Layout = () => {
       <Services/>
       <Steps/>
       <About/>
-      {/* <Product/> */}
+      <Product/>
       <Form/>
       <Contact/>
       <Footer/>

@@ -9,7 +9,7 @@ const Form = () => {
       <img className=' small:w-[380px] medium:w-[500px] w-[600px]' src={form} alt="" />
       <div className='flex flex-col gap-5 medium:w-[400px] large:px-10 extralarge:w-[500px] extralarge:px-3 large:w-[450px] '>
           <p className='text-2xl font-bold text-blue-500' >Let's Talk</p>
-          <h1 className='text-5xl small:w-[250px] font-bold'>We Would Like To Hear From <br /> You Anytime</h1>
+          <h1 className='text-5xl small:w-[250px] font-bold xxsmall:w-[300px] '>We Would Like To Hear From <br /> You Anytime</h1>
           <form className='flex flex-col gap-3 '>
               <label> Your Name</label>
               <input className='py-2 px-2 rounded-xl  bg-blue-100 ' type="text" name='name'  placeholder='Enter your name' required />

@@ -21,6 +21,7 @@ export default {
         'xxxsmall':{'max':'660px'},
         'xxxxsmall':{'max':'640px'},
         'extrasmall':{'max':'500px'},
+        'lextrasmall':{'max':'478px'},
         'xextrasmall':{'max':'420px'}
       }
     },

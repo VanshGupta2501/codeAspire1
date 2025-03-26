@@ -17,7 +17,7 @@ const Hero2 = () => {
 
   return (
     <div data-scroll data-scroll-section data-scroll-speed="0.05"  className='  w-full h-screen flex justify-center items-center   '>
-      <div  className='w-[100%]  gap-20   h-[800px] bg-cover flex justify-center items-center  flex-col xextralarge:w-full xextralarge:h-screen xextralarge:bg-cover extralarge:bg-center extralarge:bg-cover   ' style={{backgroundImage:`linear-gradient(rgba(8,0,58,0.4),rgba(8,0,58,0.4)),url(${img})`}} >
+      <div  className='w-[100%]  gap-20 xextrasmall:gap-4   h-[800px] bg-cover flex justify-center items-center  flex-col xextralarge:w-full xextralarge:h-screen xextralarge:bg-cover extralarge:bg-center extralarge:bg-cover   ' style={{backgroundImage:`linear-gradient(rgba(8,0,58,0.4),rgba(8,0,58,0.4)),url(${img})`}} >
         {/* <img className='w-[1400px]' src={img} alt="" /> */}
         <motion.div initial={{y:"100px", opacity:0  }} whileInView={{opacity:1 ,delay:'0.4', transition:{delay:0.2, ease:'linear', duration:0.4}, y:'-20px' }}   className=' grid grid-cols-4 medium:grid-cols-2 xsmall:grid-cols-1 xsmall:gap-16 xsmall:my-10  gap-44 xextralarge:gap-44 extralarge:gap-32 large:gap-20 large:mx-2  text-white  '>
           <div ref={ref} className='flex items-center  gap-6 text-4xl font-semibold'>

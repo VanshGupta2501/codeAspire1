@@ -7,7 +7,7 @@ import { MdOutlineDeveloperMode } from "react-icons/md";
 const Android = () => {
   return (
 <>
-    <div className='w-full h-[3100px] xxxsmall:h-[4800px] extrasmall:h-[4900px] extralarge:h-[3200px] extralarge:-mt-24  xsmall:h-[3600px] xxsmall:h-[4700px]  flex justify-center items-center font-ppt bg-[#fcf8ea] '>
+    <div className='w-full h-[3100px] xxxsmall:h-[4800px] extrasmall:h-[4900px] xextrasmall:h-[5000px] extralarge:h-[3200px] extralarge:-mt-24  xsmall:h-[3600px] xxsmall:h-[4700px]  flex justify-center items-center font-ppt bg-[#fcf8ea] '>
         <div className='w-[90%] h-[90%]  flex flex-col items-center justify-start gap-3 '>
             <div className='flex justify-center items-center flex-col gap-10' >
             <h1 className='text-7xl font-semibold medium:text-6xl  extrasmall:text-4xl  ' >App Development</h1>

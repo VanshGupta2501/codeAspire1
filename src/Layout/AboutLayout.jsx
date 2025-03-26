@@ -3,6 +3,7 @@ import About from '../Component/About'
 import Navbar from '../Component/Navbar'
 import Footer from '../Component/Footer'
 import Contact from '../Component/Contact'
+import Form from '../Component/Form'
 
 const AboutLayout = () => {
   return (
@@ -10,6 +11,7 @@ const AboutLayout = () => {
       <Navbar/>
       <Contact/>  
       <About/>
+      <Form/>
       <Footer/>
     </>
   )

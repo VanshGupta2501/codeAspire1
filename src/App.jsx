@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Layout from './Layout/Layout'
 import LocomotiveScroll from 'locomotive-scroll';
 import { BrowserRouter, createBrowserRouter, createRoutesFromElements, Route, Router, RouterProvider } from 'react-router-dom'
@@ -19,71 +19,83 @@ import Websitelayout from './Layout/Websitelayout';
 import SoftwareLayout from './Layout/SoftwareLayout';
 import Allservices from './Component/Allservices';
 import RequestDemo from './Pages/RequestDemo';
-
+import ReactGA from 'react-ga4'
+import { title } from 'motion/react-client';
 
 
 
 
 const App = () => {
+  const GOOGLE_GA_TOKEN = 'G-7TLN3T1ZEK'
+  ReactGA.initialize(GOOGLE_GA_TOKEN)
+
+  useEffect(() => {
+    ReactGA.send({
+      hitType: "pageview",
+      page: window.location.pathname,
+      title: "custom Title"
+    })
+  })
+
 
   const locomotiveScroll = new LocomotiveScroll();
-  const router=createBrowserRouter([
+  const router = createBrowserRouter([
     {
       path: '/',
       element: <Layout />,
     },
     {
-      path:'/policy',
-      element:<Policy/>
+      path: '/policy',
+      element: <Policy />
     },
     {
-      path:'/prism-policy',
-      element:<Prismpolicy/>
+      path: '/prism-policy',
+      element: <Prismpolicy />
     },
     {
-      path:'/about',
-      element:<AboutLayout/>
+      path: '/about',
+      element: <AboutLayout />
     },
     {
-      path:'/contact',
-      element:<ContactLayout/>
+      path: '/contact',
+      element: <ContactLayout />
     },
     {
-      path:'/service',
-      element:<ServiceLayout/>,
+      path: '/service',
+      element: <ServiceLayout />,
 
     },
     {
-      path:'/product',
-      element:<ProductLayout/>
+      path: '/product',
+      element: <ProductLayout />
     },
     {
-      path:'/termCondition',
-      element:<Termsofservices/>
+      path: '/termCondition',
+      element: <Termsofservices />
     },
     {
-      path:'/android',
-      element:<Android/>
+      path: '/android',
+      element: <Android />
     },
     {
-      path:'/service/website',
-      element:<Websitelayout/>
+      path: '/service/website',
+      element: <Websitelayout />
     },
     {
-      path:'/service/android',
-      element:<Applayout/>
+      path: '/service/android',
+      element: <Applayout />
     },
     {
-      path:'/service/software',
-      element:<SoftwareLayout/>
+      path: '/service/software',
+      element: <SoftwareLayout />
     },
     {
-      path:'/all-service',
-      element:<Allservices/>
+      path: '/all-service',
+      element: <Allservices />
     },
     {
-      path:'/request-demo',
-      element:<RequestDemo/>
+      path: '/request-demo',
+      element: <RequestDemo />
     }
 
   ])
